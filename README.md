@@ -4,7 +4,7 @@ Bienvenido al repositorio del proyecto Tecflix. Este archivo contiene lineamient
 
 ## Flujo de Ramas (Git Flow Simplificado)
 
-**REGLA DE ORO:** Nadie, bajo ninguna circunstancia, debe subir código directamente a la rama `main` (o `master`). Todos deben usar ramas.
+**REGLA DE ORO:** Nadie, bajo ninguna circunstancia, debe subir código directamente a la rama `main`. Todos deben usar ramas.
 
 ### Ejemplo de Flujo de Trabajo (Dev 1 en Sprint 1):
 
@@ -12,7 +12,7 @@ Bienvenido al repositorio del proyecto Tecflix. Este archivo contiene lineamient
     `git pull origin main`
 
 2.  **Crear Rama:** Crea una rama específica para tu tarea de Jira. Usa un prefijo como `feature/` o `fix/` seguido del código de la tarea.
-    `git checkout -b feature/TEC-101-arbol-b`
+    `git checkout -b feature/DIPT-17`
 
 3.  **Programar y Guardar localmente:** Avanza en tu código y haz commits locales descriptivos diarios (o más frecuentes).
     `git commit -m "feat: implementar insercion de nodos en Arbol B"`
