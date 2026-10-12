@@ -19,7 +19,7 @@ Bienvenido al repositorio del proyecto Tecflix. Este archivo contiene lineamient
     `git commit -m "feat: agregar serializacion a binario del nodo"`
 
 4.  **Subir al Servidor (GitHub):** Al terminar la tarea, o al final del día para tener un respaldo en la nube, sube tu rama.
-    `git push origin feature/TEC-101-arbol-b`
+    `git push origin feature/DIPT-17`
 
 ## Estructura del Repositorio
 
