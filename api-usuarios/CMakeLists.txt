@@ -3,6 +3,7 @@ project(api_usuarios)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(api_usuarios main.cpp
-        src/btree/BTreeNode.cpp
-        src/btree/BTree.cpp)
+add_executable(api_usuarios
+        src/btree/BTreeNode.hpp
+        src/btree/BTree.hpp
+        src/btree/main.cpp)
